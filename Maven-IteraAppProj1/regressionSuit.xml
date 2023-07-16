@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="2" parallel="tests">
+
+<listeners>
+		<listener class-name="extendReport.ExtentTestNGIReporterListener" />
+</listeners>
+
+
+   <test  name="FirefoxTest" thread-count="2" parallel="classes">
+  <parameter name="browser" value="Firefox"/>
+    <classes>
+     
+         <class name="DemoTestNG.DemoTestNG2"/>
+       <class name="DemoTestNG.LoginTestNG"/>
+         
+    </classes>
+  </test> <!-- Test1 -->
+ 
+ 
+  
+</suite> <!-- Suite -->

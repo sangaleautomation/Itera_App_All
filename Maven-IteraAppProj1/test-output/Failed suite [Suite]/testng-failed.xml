@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ChromeTest(failed)(failed)">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="DemoTestNG.DemoTestNG2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="OpenBrowser"/>
+          <include name="VerifyMessageonSignUppage"/>
+          <include name="afterTest"/>
+          <include name="createPOMObject"/>
+          <include name="afterMethod"/>
+          <include name="clearObject"/>
+        </methods>
+      </class> <!-- DemoTestNG.DemoTestNG2 -->
+    </classes>
+  </test> <!-- ChromeTest(failed)(failed) -->
+  <test thread-count="2" parallel="classes" name="FirefoxTest(failed)(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="DemoTestNG.DemoTestNG2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="OpenBrowser"/>
+          <include name="VerifyMessageonSignUppage"/>
+          <include name="afterTest"/>
+          <include name="createPOMObject"/>
+          <include name="afterMethod"/>
+          <include name="clearObject"/>
+        </methods>
+      </class> <!-- DemoTestNG.DemoTestNG2 -->
+    </classes>
+  </test> <!-- FirefoxTest(failed)(failed) -->
+  <test thread-count="2" parallel="classes" name="EdgeTest(failed)(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="DemoTestNG.DemoTestNG2">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="OpenBrowser"/>
+          <include name="VerifyMessageonSignUppage"/>
+          <include name="afterTest"/>
+          <include name="createPOMObject"/>
+          <include name="afterMethod"/>
+          <include name="clearObject"/>
+        </methods>
+      </class> <!-- DemoTestNG.DemoTestNG2 -->
+    </classes>
+  </test> <!-- EdgeTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->
